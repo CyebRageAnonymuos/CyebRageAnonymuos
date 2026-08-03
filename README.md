@@ -8,20 +8,17 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=3" width="100%"/>
+<img src="divider.svg" width="100%"/>
 
 ## `$ id cyber-rage`
 
-```
-$ id cyber-rage
-> members     : [ CLASSIFIED ]
-> languages   : polyglot — most major stacks, by necessity
-> disciplines : offensive & defensive security · web development · network engineering
-> visibility  : anonymous by design, always
-> scope       : + more than fits in a terminal window
-```
+<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=3" width="100%"/>
+<img src="terminal.svg" width="100%"/>
+
+</div>
+
+<img src="divider.svg" width="100%"/>
 
 ## `$ cat capabilities.log`
 
@@ -37,7 +34,7 @@ Tunnel and config-panel infrastructure, multi-region routing, systems built to s
 ### ➕ And More
 If it compiles, runs in a terminal, or needs securing, it's probably already on the list.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=3" width="100%"/>
+<img src="divider.svg" width="100%"/>
 
 ## `$ ls stack/ --polyglot`
 
@@ -56,7 +53,7 @@ If it compiles, runs in a terminal, or needs securing, it's probably already on 
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=3" width="100%"/>
+<img src="divider.svg" width="100%"/>
 
 ## `$ netstat --connections`
 

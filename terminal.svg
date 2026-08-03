@@ -1,0 +1,46 @@
+<svg width="760" height="250" viewBox="0 0 760 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="winGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15132e"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+    <filter id="glow2" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <style>
+    .mono { font-family: 'Courier New', monospace; font-size: 15px; }
+    .line { opacity: 0; animation: lineIn 0.6s ease-out forwards; }
+    .l0 { animation-delay: 0s; }
+    .l1 { animation-delay: 0.45s; }
+    .l2 { animation-delay: 0.9s; }
+    .l3 { animation-delay: 1.35s; }
+    .l4 { animation-delay: 1.8s; }
+    .l5 { animation-delay: 2.25s; }
+    @keyframes lineIn { from { opacity:0; transform: translateX(-10px);} to {opacity:1; transform: translateX(0);} }
+    .cursor-inline { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 0%,50% {opacity:1;} 50.01%,100% {opacity:0;} }
+    .dot-glow { animation: dotPulse 2.4s ease-in-out infinite; }
+    @keyframes dotPulse { 0%,100% { opacity:0.7; } 50% { opacity:1; } }
+  </style>
+
+  <rect x="1" y="1" width="758" height="248" rx="14" fill="url(#winGrad)" stroke="#C4B5FD" stroke-opacity="0.35" filter="url(#glow2)"/>
+  <rect x="1" y="1" width="758" height="38" rx="14" fill="#0f0c29"/>
+  <rect x="1" y="25" width="758" height="14" fill="#0f0c29"/>
+
+  <circle class="dot-glow" cx="26" cy="20" r="6" fill="#ff5f56"/>
+  <circle class="dot-glow" cx="48" cy="20" r="6" fill="#ffbd2e" style="animation-delay:0.3s"/>
+  <circle class="dot-glow" cx="70" cy="20" r="6" fill="#27c93f" style="animation-delay:0.6s"/>
+  <text x="380" y="25" text-anchor="middle" class="mono" font-size="13" fill="#8b7fd6">cyber-rage@anonymous:~</text>
+
+  <text x="28" y="70" class="mono line l0" fill="#C4B5FD" filter="url(#glow2)">$ id cyber-rage</text>
+  <text x="28" y="98" class="mono line l1" fill="#e5e5f0">&gt; members     : [ CLASSIFIED ]</text>
+  <text x="28" y="124" class="mono line l2" fill="#e5e5f0">&gt; languages   : polyglot, most major stacks</text>
+  <text x="28" y="150" class="mono line l3" fill="#e5e5f0">&gt; disciplines : security &#183; web dev &#183; networking</text>
+  <text x="28" y="176" class="mono line l4" fill="#e5e5f0">&gt; visibility  : anonymous, by design</text>
+  <text x="28" y="202" class="mono line l5" fill="#e5e5f0">&gt; scope       : + more than fits here<tspan class="cursor-inline" fill="#C4B5FD">&#9608;</tspan></text>
+</svg>

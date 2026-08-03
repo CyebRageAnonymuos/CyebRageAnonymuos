@@ -1,0 +1,29 @@
+<svg width="1000" height="8" viewBox="0 0 1000 8" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="50%" stop-color="#302b63"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C4B5FD" stop-opacity="1"/>
+      <stop offset="45%" stop-color="#C4B5FD" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#C4B5FD" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .pulse { animation: travel 3s linear infinite; }
+    @keyframes travel {
+      0% { transform: translateX(-80px); }
+      100% { transform: translateX(1080px); }
+    }
+    .pulse2 { animation: travel2 3s linear infinite; }
+    @keyframes travel2 {
+      0% { transform: translateX(-1080px); }
+      100% { transform: translateX(80px); }
+    }
+  </style>
+  <rect width="1000" height="3" y="2.5" fill="url(#dGrad)"/>
+  <ellipse class="pulse2" cx="0" cy="4" rx="90" ry="14" fill="url(#glow)" opacity="0.5"/>
+  <ellipse class="pulse" cx="0" cy="4" rx="70" ry="14" fill="url(#glow)"/>
+</svg>
