@@ -60,7 +60,7 @@ If it compiles, runs in a terminal, or needs securing, it's probably already on 
 <div align="center">
 
 [![Telegram Channel](https://img.shields.io/badge/Telegram_Channel-0f0c29?style=for-the-badge&logo=telegram&logoColor=C4B5FD)](https://t.me/cyberrageofficial)
-[![Telegram Contact](https://img.shields.io/badge/Telegram_Contact-0f0c29?style=for-the-badge&logo=telegram&logoColor=C4B5FD)](t.me/R4G3_2024)
+[![Telegram Contact](https://img.shields.io/badge/Telegram_Contact-0f0c29?style=for-the-badge&logo=telegram&logoColor=C4B5FD)](Https://t.me/R4G3_2024)
 [![Discord](https://img.shields.io/badge/Discord-0f0c29?style=for-the-badge&logo=discord&logoColor=C4B5FD)](https://discord.gg/9KhfPTqTg)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0f0c29?style=for-the-badge&logo=linkedin&logoColor=C4B5FD)](https://www.linkedin.com/in/cyber-rage-anonymous-801656416)
 
