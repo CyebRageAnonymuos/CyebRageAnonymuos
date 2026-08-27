@@ -2,7 +2,7 @@
 
 <img src="banner.svg" width="100%"/>
 
-<a href="https://github.com/cyberrage-ananymus">
+<a href="https://github.com/cyberrage-ananymuos">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1200&color=C4B5FD&center=true&vCenter=true&width=800&lines=%24+whoami;access+denied.;polyglot+%2F%2F+security+%2F%2F+infrastructure;anonymous+by+design" alt="Typing SVG"/>
 </a>
 
